@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myapps.wycoco.com.ethelonfinalversion.Activities.InterestsActivity">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <LinearLayout
+               android:id="@+id/linearNature"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+
+               android:layout_marginBottom="24dp">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_marginRight="10dp"
+                   android:src="@drawable/leaf"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="NATURE"
+                   android:layout_gravity="center_vertical"
+                   style="@style/TextViewBlackBig"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linearYouth"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:weightSum="3"
+
+               android:layout_marginBottom="24dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="YOUTH WORKS"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="70dp"
+                   android:padding="8dp"
+                   style="@style/TextViewBlackBig"/>
+
+               <ImageView
+                   android:layout_width="140dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/children" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linearMedicine"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+
+               android:layout_marginBottom="24dp">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_marginRight="10dp"
+                   android:src="@drawable/medicine"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="MEDICAL WORKS"
+                   android:layout_gravity="center_vertical"
+                   style="@style/TextViewBlackBig"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linearDisaster"
+
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:weightSum="3"
+               android:layout_marginBottom="24dp">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="DISASTER AND RELIEF"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="13dp"
+                   android:padding="8dp"
+                   style="@style/TextViewBlackBig"/>
+
+               <ImageView
+                   android:layout_width="140dp"
+                   android:layout_height="120dp"
+                   android:src="@drawable/ambulance" />
+           </LinearLayout>
+
+           <LinearLayout
+               android:id="@+id/linearEducation"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:padding="12dp"
+               android:layout_marginBottom="24dp">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_marginRight="10dp"
+                   android:src="@drawable/graduation"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="EDUCATION"
+                   android:layout_gravity="center_vertical"
+                   style="@style/TextViewBlackBig"/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+</ScrollView>
