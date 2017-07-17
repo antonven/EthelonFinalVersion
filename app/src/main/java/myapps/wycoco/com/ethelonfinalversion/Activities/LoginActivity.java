@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference table = database.getReference("sampleTable");
+        //DatabaseReference table = database.getReference("sampleTable");
 
          firebase = new Firebase("https://ethelonfinalversion.firebaseio.com/sampleTable");
 
