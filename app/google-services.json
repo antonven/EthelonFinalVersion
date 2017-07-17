@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "395238701766",
+    "firebase_url": "https://ethelonfinalversion.firebaseio.com",
+    "project_id": "ethelonfinalversion",
+    "storage_bucket": "ethelonfinalversion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395238701766:android:d369f507aa92e309",
+        "android_client_info": {
+          "package_name": "myapps.wycoco.com.ethelonfinalversion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395238701766-eo6tq31h1dir4u9rjo59jah72dsma9c9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myapps.wycoco.com.ethelonfinalversion",
+            "certificate_hash": "86b95a99b59555fecbf856306460c5d50d00c94b"
+          }
+        },
+        {
+          "client_id": "395238701766-jb3rm7e0vkb2adkevtb45e06r4ueq02g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK7ukrVixt3pHSMpNF1XpCaxPGj8BJUes"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395238701766-jb3rm7e0vkb2adkevtb45e06r4ueq02g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
